@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<title>WAVE-Hamburg Seismisches Netzwerk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="./w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-aqua w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>WAVE<br>Initiative<br>Hamburg</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Vision</a> 
+    <a href="#PoC" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Demonstrationsstudie</a> 
+    <a href="#results" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Ergebnisse</a> 
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team</a> 
+<!--
+    <a href="#outlook" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Future</a> 
+-->
+    <a href="#acknowledgment" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Danksagung</a> 
+  </div>
+<!-- !/////////////////////////////////////changes here! -->
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" title="English">English</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-aqua w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-aqua w3-margin-right" onclick="w3_open()">☰</a>
+  <span>WAVE Initiative Hamburg</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-left" style="max-width:800px">
+    <img class="w3-image" src="./Figures/smart_city.jpg" alt="smart city" width="800" height="600">
+<!---
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-left">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JAN DOE</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">JANE OE</h5>
+    <h3 class="w3-hide-medium w3-hide-small">PHOTGRAPHER</h3>
+  </div>
+    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Catering</h1>
+  </div>
+-->
+  </header>
+
+  
+  <div class="w3-container" style="margin-top:80px" id="vision">
+    <h1 class="w3-jumbo"><b>WAVE</b></h1>
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Das Seismisches Netzwerk</b></h1>
+    <hr style="width:50px;border:5px solid aqua" class="w3-round">
+    <p>
+Die <a href="https://indico.desy.de/event/28485/">WAVE initiative</a> untersucht und konzipiert ein seismisches und geo-akustisches Messnetzwerk in und um die Science City Hamburg Bahrenfeld. WAVE ist eine einmalige und innovative Infrastruktur für Geophysik, Physik und insbesondere für Großforschungsanlagen.<br>
+Grundlage von WAVE ist der breite Einsatz moderner seismischer Sensoren, insbesondere sogenannter ortsverteilter akustischer Sensoren (distributed acoustic sensing, DAS). Diese Technologie nutzt Glasfaserkabel als empfindliche seismische Sensoren. Sie ermöglicht es, Bodenbewegungsdaten in einer bisher nicht erreichten Dichte über große Entfernungen aufzuzeichnen und liefert damit neue Impulse für die Geophysik.
+    </p>
+  </div>
+  
+  <!-- Proof of concept -->
+  <div class="w3-container" id="PoC" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Demonstrationsstudie.</b></h1>
+    <hr style="width:50px;border:5px solid aqua" class="w3-round">
+    <p>
+In einem ersten Schritt wurde das WAVE Konzept bereits unter realistischen Bedingungen getestet, um die Machbarkeit und die Möglichkeiten eines solchen Netzwerkes vor Ort zu demonstrieren. Dazu hat die Initiative im Mai 2021 ein “Demonstrations”-Experiment auf dem DESY/UHH Campus in Bahrenfeld
+durchgeführt, bei dem unter anderem ein 12,6 km langer, vorhandener und zusammenhängender Strang derzeit ungenutzter Telekommunikationsfasern als seismische Sensoren verwendet wurde. Dabei wurde das Wellenfeld hochauflösend im 1 m Abstand über die gesamte Faserlänge erfasst.
+Im Folgenden wird die Entstehung dieser Messkampagne, ihr Ablauf, sowie die verwendeten Sensoren zusammengefasst. Im Anschluss präsentieren wir zentrale Ergebnisse und Analysen der Messkampagne.
+    </p>
+<p>
+<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/hadzii/ckzrg6q3r00pe14l9dhyemxx7.html?title=false&access_token=pk.eyJ1IjoiaGFkemlpIiwiYSI6ImNrdmF0cW92dTNibnQyb2xwM2c2Mzd6czgifQ.oLTcVRE0U4q1GuobdEevIQ&zoomwheel=false#10/53.5732/9.9245" title="WAVE-Hamburg" style="border:none;"></iframe>
+</p>
+
+  <div class="w3-container" style="margin-top:75px">
+    <h2 class="w3-xlarge w3-text-orange"><b>Karte der DAS-Faser Teststrecke, Seismometern und Geophonen.</b></h2>
+    <hr style="width:50px;border:4px solid aqua" class="w3-round">
+  </div>
+<p>
+Karte der Faser-Teststrecke im Demonstrations-Experiment am Campus Bahrenfeld und im Tunnel des EuXFEL. Im Nordosten verläuft die Faser durch die experimentierhalle ”Max von Laue“ und folgt dort kurz der Kreisbahn von PETRA. Weitere Sensoren (Seismometern und Geophonen) sind ebenfalls in der Karte als blaue Dreiecke dargestellt. Zoomen Sie für weitere Details heran.  
+</p>
+<p>
+<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/hadzii/ckzrg6q3r00pe14l9dhyemxx7.html?title=false&access_token=pk.eyJ1IjoiaGFkemlpIiwiYSI6ImNrdmF0cW92dTNibnQyb2xwM2c2Mzd6czgifQ.oLTcVRE0U4q1GuobdEevIQ&zoomwheel=false#13/53.5816/9.87001" title="WAVE-Hamburg" style="border:none;"></iframe>
+</p>
+
+
+  </div>
+
+
+
+
+  
+  <!-- Results -->
+  <div class="w3-container" id="results" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Ergebnisse und Analyse.</b></h1>
+    <hr style="width:50px;border:5px solid aqua" class="w3-round">
+    <p>
+    </p>
+  </div>
+
+  <div class="w3-container" style="margin-top:75px">
+    <h2 class="w3-xlarge w3-text-orange"><b>Allgemeine Beobachtungen der Messungen.</b></h2>
+    <!--Eindrücke von der Messkampagne?-->
+    <hr style="width:50px;border:4px solid aqua" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./Figures/iDAS.jpg" style="width:100%" onclick="onClick(this)" alt="Allgemeine Beobachtungen der Messungen">
+      <p></p>
+    </div>
+    <div class="w3-half">
+      <img src="./Figures/georeferencing.jpg" style="width:100%" onclick="onClick(this)" alt="Allgemeine Beobachtungen der Messungen">
+      <p></p>
+    </div>
+  </div>
+
+  <div class="w3-container" style="margin-top:75px">
+    <h2 class="w3-xlarge w3-text-orange"><b>Signale entlang der DAS-Faser.</b></h2>
+    <hr style="width:50px;border:4px solid aqua" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./Figures/summary_waterfall.png" style="width:100%" onclick="onClick(this)" alt="1. HF-Stationen im EuXFEL werden für Zugang  abgeschaltet
+2. HF-Stationen im EuXFEL werden wiedereingeschaltet nach Zugang
+3. Hammerschläge gegen Kabelpritsche XTD9 zur Positionsbestimmung
+4. Hammerschläge in XTD2 gegen Kabelpritsche
+5. Hammerschläge in XTL auf Beton-Fußboden
+6. Tunneldurchsage ”Interlock Suche”
+7. Tunneldurchsage ”Beschleuniger wird eingeschaltet” (nur im XTL)
+8. Beginn der morgendlichen Aktivität auf dem Campus
+9. Last-Schaltvorgänge an den Transformatoren der Stromversorgung auf dem DESY-Campus">
+      
+  <p><b>Überblick über die gesamte Faserstrecke:</b><br> 
+Wasserfall-Diagramm der Aufzeichnungen aller DAS-Sensoren der 12.6 km langen Faser. Die Maximal-Amplitude der Zeitreihen in 20 s Intervallen ist farbkodiert über die räumlich verteilten Sensoren und den 16-stündigen Aufzeichnungszeitraum aufgetragen. Die Pfeile markieren Ereignisse, die in der darunter stehenden Auflistung entsprechend nummeriert beschrieben sind (Klicken Sie für Details).</p>
+    </div>
+    <div class="w3-half">
+      <img src="./Figures/XTL-spec-_smaller.png" style="width:100%" onclick="onClick(this)" alt="Spektren aller DAS-Sensoren entlang des Beschleunigertunnels XTL während des Beschleunigerbetriebs des EuXFEL. Bereits auf den ersten Blick sind viele Komponenten, die Störungen oder Geräusche verursachen, anhand ihres charakteristischen Spektrums identifizierbar. Exemplarisch sind einige prominente Komponenten markiert.">
+
+<p>
+<b>Signale entlang des EuXFEL-Tunnel: </b><br> 
+Spektren aller DAS-Sensoren entlang des Beschleunigertunnels XTL während des Beschleunigerbetriebs des EuXFEL. Bereits auf den ersten Blick sind viele Komponenten, die Störungen oder Geräusche verursachen, anhand ihres charakteristischen Spektrums identifizierbar. Exemplarisch sind einige prominente Komponenten markiert.
+</p>
+    </div>
+  </div>
+
+  <div class="w3-container" style="margin-top:75px">
+    <h2 class="w3-xlarge w3-text-orange"><b>Autos Signale.</b></h2>
+    <hr style="width:50px;border:4px solid aqua" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./Figures/cars_composite.png" style="width:100%" onclick="onClick(this)" alt="<b>Autos passieren die DAS-Faser:</b><br>
+      Oben wird die raumzeitliche DAS-Aufzeichnung von vorbeifahrenden Autos gezeigt. Der Faserabschnitt zwischen den Position 10430 und 10800 liegt unmittelbar neben einer Straße. Eine Karte des Straßenabschnittes ist unten links abgebildet. Unten rechts ist die Aufnahme der Fahrt eines einzelnen Autos zu sehen, wobei die horizontalen Linien in entsprechender Farbe gerahmten Momentaufnahmen der Faseranregung unten in der Mitte entsprechen. Da die Faser die Straße zweimal in entgegengesetzter Richtung passiert, ist das Wasserfall-Diagramm um die Horizontale bei einer Distanz von 10645m gespiegelt. Die Autos sind als diagonale Streifen deutlich zu erkennen, wobei deren Steigung unmittelbar Auskunft über ihre Geschwindigkeit gibt (ca. 18 ± 5km/h). Das erste Auto taucht ca. bei Sekunde 60 auf. Ein weiteres Auto fährt in selber Fahrtrichtung ab Sekunde 125. Während sich das erste Auto gegen Ende des Straßenabschnittes ca. 15 Sekunden später mit einem in entgegengesetzter Richtung reisenden, deutlich langsameren Verkehrsteilnehmer kreuzt, begegnen dem zweiten Auto offenbar drei weitere Fahrzeuge. Eines davon verlässt seinen Parkplatz auf halber Strecke, zwei weitere kommen ihm dicht aufeinander folgend entgegen.">
+      <p>
+<b>Autos passieren die DAS-Faser:</b><br> 
+Oben wird die raumzeitliche DAS-Aufzeichnung von vorbeifahrenden Autos gezeigt. Der Faserabschnitt zwischen den Position 10430 und 10800 liegt unmittelbar neben einer Straße. Eine Karte des Straßenabschnittes ist unten links abgebildet. Unten rechts ist die Aufnahme der Fahrt eines einzelnen Autos zu sehen, wobei die horizontalen Linien in entsprechender Farbe gerahmten Momentaufnahmen der Faseranregung unten in der Mitte entsprechen. Da die Faser die Straße zweimal in entgegengesetzter Richtung passiert, ist das Wasserfall-Diagramm um die Horizontale bei einer Distanz von 10645m gespiegelt. Die Autos sind als diagonale Streifen deutlich zu erkennen, wobei deren Steigung unmittelbar Auskunft über ihre Geschwindigkeit gibt (ca. 18 ± 5km/h). Das erste Auto taucht ca. bei Sekunde 60 auf. Ein weiteres Auto fährt in selber Fahrtrichtung ab Sekunde 125. Während sich das erste Auto gegen Ende des Straßenabschnittes ca. 15 Sekunden später mit einem in entgegengesetzter Richtung reisenden, deutlich langsameren Verkehrsteilnehmer kreuzt, begegnen dem zweiten Auto offenbar drei weitere Fahrzeuge. Eines davon verlässt seinen Parkplatz auf halber Strecke, zwei weitere kommen ihm dicht aufeinander folgend entgegen. 
+</p>
+    </div>
+    <div class="w3-half">
+      <video width="90%" controls autoplay loop>
+          <source src="./Movies/anim_car_map.mp4" type="video/mp4">
+      </video> 
+      <p>
+    <b>Animation eines Autos, das entlang der Faser fährt: </b><br> 
+    Derselbe Faserabschnitt wie in der Abbildung links. Die hohen Amplituden in den DAS-Aufnahmen, die durch gelbe Farbe gekennzeichnet sind, folgen der Position des Autos.
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-container" style="margin-top:75px">
+    <h2 class="w3-xlarge w3-text-orange"><b>Erdbeben Signale.</b></h2>
+    <hr style="width:50px;border:4px solid aqua" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./Figures/earthquake.png" style="width:100%" onclick="onClick(this)" alt="
+    <b>Erdbeben in China entlang der DAS-Faser aufgezeichnet::</b><br>
+    Vergleich der Seismometer-Daten mit den DAS-Daten. Dargestellt ist ein Erdbeben, das am 21.05.2021 in Qinghai (China) mit einer Magnitude von 7,4 stattfand.<br>
+    Erdbebensignal eintrifft, größer sind als diejenigen der Einzelspur. Die Amplituden des nicht erwünschten Rauschens am Anfang der Datenspur werden dagegen reduziert. Im untersten Plot sind viele DAS-Datenspuren untereinander abgebildet. Die blaue Linie markiert die in der mittleren Abbildung gezeigte Einzelspur. Der rote Bereich umfasst die 600 Spuren, aus denen die Summenspur gebildet wurde.<br>
+    In der unteren Graphik sind neben den vertikalen Linien, die den kohärenten seismischen Wellenfronten entsprechen, räumliche Variationen der gemessenen Schwingungsamplituden zu sehen. Diese können mit inhomogenen Untergrundstrukturen zusammenhängen und veranschaulichen, wie DAS-Messungen eine hohe zeitliche und räumliche Auflösung bieten.">
+      <p>
+    <b>Erdbeben in China entlang der DAS-Faser aufgezeichnet:</b><br>
+Vergleich der Seismometer-Daten mit den DAS-Daten. Dargestellt ist ein Erdbeben, das am 21.05.2021 in Qinghai (China) mit einer Magnitude von 7,4 stattfand.<br>
+Erdbebensignal eintrifft, größer sind als diejenigen der Einzelspur. Die Amplituden des nicht erwünschten Rauschens am Anfang der Datenspur werden dagegen reduziert. Im untersten Plot sind viele DAS-Datenspuren untereinander abgebildet. Die blaue Linie markiert die in der mittleren Abbildung gezeigte Einzelspur. Der rote Bereich umfasst die 600 Spuren, aus denen die Summenspur gebildet wurde.<br>
+In der unteren Graphik sind neben den vertikalen Linien, die den kohärenten seismischen Wellenfronten entsprechen, räumliche Variationen der gemessenen Schwingungsamplituden zu sehen. Diese können mit inhomogenen Untergrundstrukturen zusammenhängen und veranschaulichen, wie DAS-Messungen eine hohe zeitliche und räumliche Auflösung bieten.
+      </p>
+    </div>
+    <div class="w3-half">
+      <video width="90%" controls autoplay loop>
+          <source src="./Movies/anim_eq_map.mp4" type="video/mp4">
+      </video> 
+      <!--
+      <img src="./Figures/earthquake_snapshots.png" style="width:100%" onclick="onClick(this)" alt="
+    <b>Erdbebenwellen, die sich entlang des EuXFEL-Tunnels ausbreiten:</b><br>
+Räumlich-zeitliche Ausbreitung seismischer Wellen durch den EuXFEL-Tunnel, verursacht durch ein starkes Erdbeben (Stärke 7,4) mit Epizentrum in China. <br>
+Rechts ist eine typische Darstellung für DAS-Daten (Wasserfalldiagramm) zu sehen, die die Zeitreihe der Dehnungsamplitude (y-Achse) für jeden Fasersensor (Kanal, x-Achse) farblich kodiert. 
+Hier steht die dunkelblaue Farbe für die Kompression und die hellgelbe für die Dehnung eines Fasersegments. Vier verschiedene Zeitpunkte, markiert durch horizontale Linien im Wasserfalldiagramm, entsprechen jeweils einer Momentaufnahme der Dehnungsamplituden (Dehnungsrate) aller DAS-Sensoren auf der linken Seite. Hier entsprechen die Farben und die Striche der horizontalen Linien denen der Rahmen der Momentaufnahmen.<br>
+Obwohl die Länge der Wellen die des Tunnels um ein Vielfaches übersteigt, ist die räumliche Ausformung der Wellenberge und Wellentäler zu einem festen Zeitpunkt deutlich zu erkennen.
+">
+      -->
+      <p>
+    <b>Animation der Ausbreitung von Erdbebenwellen durch den EuXFEL-Tunnel:</b><br>
+Ausbreitung von seismischen Wellen, die durch ein starkes Erdbeben (Magnitude 7,4) mit Epizentrum in China verursacht wurden, durch den EuXFEL-Tunnel.<br>
+ORechts ist eine typische Darstellung für DAS-Daten (Wasserfalldiagramm) zu sehen, die die Zeitreihe der Dehnungsamplitude (y-Achse) für jeden Fasersensor (Kanal, x-Achse) farblich kodiert. Hier steht die dunkelblaue Farbe für die Kompression und die hellgelbe für die Dehnung eines Fasersegments.<br>
+Links ist die zeitliche Entwicklung der Dehnungsamplituden (Dehnungsrate), die an allen DAS-Sensoren aufgezeichnet wurden, auf die Faserspur entlang des EuXFEL-Tunnels projiziert.
+Obwohl die Länge der Wellen die des Tunnels um ein Vielfaches übersteigt, ist die räumliche Ausformung der Wellenberge und -täler bei ihrer Ausbreitung von Ost nach West deutlich zu erkennen.
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-container" style="margin-top:75px">
+    <h2 class="w3-xlarge w3-text-orange"><b>Vibrotruck sweeps.</b></h2>
+    <hr style="width:50px;border:4px solid aqua" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./Figures/vibrotruck.jpg" style="width:100%" onclick="onClick(this)" alt="Vibrotruck des Unternehmens Baudynamik Heiland &amp; Mistler GmbH den rechts zu sehenden Frequenzdurchlauf anregen.">
+      <p>
+    Vibrotruck des Unternehmens <a href="https://www.baudynamik.de/">Baudynamik</a> Heiland &amp; Mistler GmbH den rechts zu sehenden Frequenzdurchlauf anregen. 
+      </p>
+    </div>
+    <div class="w3-half">
+      <img src="./Figures/sweeps_signal_spectrogram.png" style="width:100%" onclick="onClick(this)" alt="
+      <b>Durch den Vibrotruck angeregte Bodenbewegungen: </b><br>
+      Zeitreihe und Frequentzgehalt des Vibrotruk-Sweeps gemessen bei Position = 900 in der Faser.
+      Im Beschleunigertunnel des EuXFEL gemessene Vibrationsspektren zeigen sehr deutlich die Bodenschwingungen, die ein sogenannter Vibro-Truck in ca. 100 m Entfernung oberirdisch auf den Untergrund ausübt.  
+">
+      <p> <b>Durch den Vibrotruck angeregte Bodenbewegungen: </b><br>
+    Im Beschleunigertunnel des EuXFEL gemessene Vibrationsspektren zeigen sehr deutlich die Bodenschwingungen, die ein sogenannter Vibro-Truck in ca. 100 m Entfernung oberirdisch auf den Untergrund ausübt.
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-container" style="margin-top:75px">
+    <h2 class="w3-xlarge w3-text-orange"><b>Störende Vibrationsquellen.</b></h2>
+    <hr style="width:50px;border:4px solid aqua" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./Figures/5-2Hz-line.png" style="width:100%" onclick="onClick(this)" alt="Spektrogram der Aufzeichnungen eines einzelnen DAS-Kanals über einen Zeitraum von zwei Stunden. Zu erkennen ist ein unregelmäßiges Signal im Frequenzbereich um 5.2 Hz, welches den Experimentierbetrieb bei PETRA beeintrachtigt.">
+      <p>
+Spektrogram der Aufzeichnungen eines einzelnen DAS-Kanals über einen Zeitraum von zwei Stunden. Zu erkennen ist ein unregelmäßiges Signal im Frequenzbereich um 5.2 Hz, welches den Experimentierbetrieb bei PETRA beeintrachtigt. 
+</p>
+    </div>
+    <div class="w3-half">
+      <img src="./Figures/trafo.png" style="width:100%" onclick="onClick(this)" alt="Frequenzanteile akustischer Signale, welche in der Nähe eines Transformatorhäuschens auf dem DESY-Gelände gemessen wurden. Die untere Grafik zeigt die elektronisch gemessene Variation der 50 Hz Netzfrequenz. Das obere Spektrogram zeigt den zeitlichen Verlauf eines einstündigen Ausschnitts des Signals an einer einzigen Position der Glasfaser in der Nähe des Trafos. Man erkennt eine Vibration bei der 5.  Harmonischen der Netzfrequenz bei 300 Hz, deren Fluktuationen genau dem Verhalten der Netzfrequenz folgen.">
+      <p>
+Frequenzanteile akustischer Signale, welche in der Nähe eines Transformatorhäuschens auf dem DESY-Gelände gemessen wurden. Die untere Grafik zeigt die elektronisch gemessene Variation der 50 Hz Netzfrequenz. Das obere Spektrogram zeigt den zeitlichen Verlauf eines einstündigen Ausschnitts des Signals an einer einzigen Position der Glasfaser in der Nähe des Trafos. Man erkennt eine Vibration bei der 5.  Harmonischen der Netzfrequenz bei 300 Hz, deren Fluktuationen genau dem Verhalten der Netzfrequenz folgen.
+    </p>
+
+    </div>
+  </div>
+
+  <!-- Photo grid (modal) -->
+    <!---
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./Figures/map_composite.png" style="width:100%" onclick="onClick(this)" alt="Map of the fiber test track in the proof of concept experiment at the Bahrenfeld Campus and in the tunnel of EuXFEL.  In the northeast, the fiber runs through the 'Max von Laue' experimental hall and briefly follows the circular path of PETRA there.  Other sensors and excitation points are also shown on the map.  The right side shows the location of the test environment and the campus in Bahrenfeld in the west of Hamburg.">
+      <p>Map of the DAS-fiber test track, seismometers and geophones. </p>
+      <img src="./Figures/cars_composite.png" style="width:100%" onclick="onClick(this)" alt="caption">
+      <p>TEXT</p>
+      <video width="90%" controls loop>
+          <source src="./Movies/anim_car.mp4" type="video/mp4">
+      </video> 
+      <p>cars passing near the DAS fiber</p>
+
+      <img src="./Figures/cars_composite.jpg" style="width:100%" onclick="onClick(this)" alt="caption">
+      <p>TEXT</p>
+    </div>
+
+    <div class="w3-half">
+      <img src="./Figures/cars_composite.jpg" style="width:100%" onclick="onClick(this)" alt="caption">
+		<p>TEXT</p>
+      <img src="./Figures/sweeps.png" style="width:100%" onclick="onClick(this)" alt="caption">
+      <p>TEXT</p>
+      <img src="./Figures/map_composite.png" style="width:100%" onclick="onClick(this)" alt="caption">
+      <p>TEXT</p>
+    </div>
+  </div>
+    -->
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-blue-gray" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+
+  <!-- The Team -->
+  <!-- Results -->
+  <div class="w3-container" id="team" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Team.</b></h1>
+    <hr style="width:50px;border:5px solid aqua" class="w3-round">
+    <p>
+    </p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="./Figures/Logo/uni_hamburg_square.png" alt="UHH" style="width:30%">
+        <div class="w3-container">
+          <h3>Universität Hamburg</h3>
+          <p class="w3-opacity"><a href="https://www.physik.uni-hamburg.de/en/forschung/institute.html">Institut für Physik</a> 
+          </p>
+          <p>
+            Prof. Dr. Oliver Gerberding <br>
+            Prof. Dr. Roman Schnabel <br> 
+          </p>
+          <p class="w3-opacity"><a href="https://www.geo.uni-hamburg.de/en/geophysik.html">Institut für Geophysik</a> </p>
+          <p>
+            Prof. Dr. Celine Hadziioannou <br>
+            Prof. Dr. Dirk Gajewski <br>
+            Regina Maa&szlig; <br>
+            Oliver B&ouml;lt <br>
+            Ingra Malucelli Barbosa 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="./Figures/Logo/desy.png" alt="DESY" style="width:30%">
+        <div class="w3-container">
+          <h3>DESY</h3>
+          <p class="w3-opacity"><a href="https://msk.desy.de">MSK</a></p>
+          <p>
+            Dr. Holger Shlarb <br>
+            Dr. Markus Hoffmann <br>
+            Erik Genthe 
+          </p>
+          <p class="w3-opacity"><a href="https://alps.desy.de">ALPS</a></p>
+          <p>
+            Dr. Axel Lindner <br>
+            Dr. Katharina-Sophie Isleif <br>
+            Sandy Croatto 
+          </p>
+          <p class="w3-opacity"><a href="https://mea.desy.de/">MEA</a></p>
+          <p>
+            Norbert Meyners
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="./Figures/Logo/logo_GFZ.png" alt="GFZ" style="width:30%">
+        <div class="w3-container">
+          <h3>GeoForschungszentrum Potsdam</h3>
+          </p>
+          <p class="w3-opacity"><a href="https://www.gfz-potsdam.de/sektion/geophysikalische-abbildung-des-untergrunds/ueberblick">Sektion 2.2: Geophysikalische Abbildung des Untergrunds</a></p>
+          <p>
+            Dr. Christopher Wollin <br> 
+            Prof. Dr. Charlotte Krawczyk <br>
+            Dr. Luigia Cristiano 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Outlook
+  <div class="w3-container" id="outlook" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Looking towards the Future.</b></h1>
+    <hr style="width:50px;border:5px solid aqua" class="w3-round">
+    <p>
+    lorem ipsum
+    </p>
+  </div>
+-->
+
+  <!-- Acknowledgements -->
+  <div class="w3-container" id="acknowledgment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Danksagung. </b></h1>
+    <hr style="width:50px;border:5px solid aqua" class="w3-round">
+    <p>
+  Die Nutzung des Interrogators der Firma OptaSense wurde durch die MIN-Fakultät, vertreten durch den Dekan Prof. Dr. Heinrich Graener, gefördert. Für die zusätzliche Anregung mit dem Vibro-Truck am Campus und den Austausch bedanken wir uns außerdem bei der Firma Baudynamik und Herrn Dr.-Ing. Michael Mistler. Wir möchten uns weiterhin bei der Gruppe IT des DESY, insbesondere bei Tobias Ladwig, für die Unterstützung bei der Herstellung der Faserverbindung und der Bereitstellung des Experimentierraums bedanken. Für die Unterstützung des Betriebsteams des European XFEL für das Georeferenzierung und den Zugang zum Beschleuniger möchten wir uns ebenfalls bedanken. Für Beratung und Service vor Ort möchten wir uns außerdem bei Dr. Martin Karrenbach von der Firma OptaSense bedanken. Außerdem bedanken wir uns beim Physnet-Rechenzentrum für die Bereitstellung der Server, Rechenkapazitäten und Datenspeicher sowie für die Beratung bei der Erstellung der Architektur zur Datenauswertung.
+    </p>
+  </div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
+

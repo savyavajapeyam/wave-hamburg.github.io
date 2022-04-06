@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <title>WAVE-Hamburg Seismic Network</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +15,7 @@ body {font-size:16px;}
 </style>
 <body>
 
-<!-- Sidebar/menu -->
+<!-- Sidebar/menu and language button-->
 <nav class="w3-sidebar w3-aqua w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
@@ -30,6 +31,7 @@ body {font-size:16px;}
 -->
     <a href="#acknowledgment" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Acknowledgments</a> 
   </div>
+  <a href="de.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" title="Deutsch">Deutsch</a>
 </nav>
 
 <!-- Top menu on small screens -->
@@ -142,13 +144,14 @@ Map of the fiber test track in the proof of concept experiment at the Bahrenfeld
 7. tunnel announcement 'accelerator is switched on'<br>
 8. start of morning activity on campus<br>
 9. load switching operations on the transformers of the power supply on the DESY campus">
-      <p><b>Overview of whole fiber track</b> Waterfall diagram of the records of all DAS sensors along the 12.6 km long fiber. The maximum amplitude of the time series at 20 s intervals is color-coded across the spatially distributed sensors and the 16 hour recording period. The arrows mark events that are described in the listing (click for details), numbered accordingly. </p>
+      <p><b>Overview of whole fiber track:</b><br> 
+Waterfall diagram of the records of all DAS sensors along the 12.6 km long fiber. The maximum amplitude of the time series at 20 s intervals is color-coded across the spatially distributed sensors and the 16 hour recording period. The arrows mark events that are described in the listing (click for details), numbered accordingly. </p>
     </div>
     <div class="w3-half">
       <img src="./Figures/XTL-spec-_smaller.png" style="width:100%" onclick="onClick(this)" alt="Spectra of all DAS channels along the accelerator tunnel XTL, during accelerator operation of EuXFEL. Already at first glance, many elements that may cause disturbance or noise can be identified by their characteristic frequencies.  Some prominent elements are marked for illustration. ">
 
 <p>
-<b>Signals along EuXFEL tunnel: <b><br> 
+<b>Signals along EuXFEL tunnel: </b><br> 
 Spectra of all DAS channels along the accelerator tunnel XTL, during accelerator operation of EuXFEL. Already at first glance, many elements that may cause disturbance or noise can be identified by their characteristic frequencies.  Some prominent elements are marked for illustration.
 </p>
     </div>
@@ -164,7 +167,8 @@ Spectra of all DAS channels along the accelerator tunnel XTL, during accelerator
       <img src="./Figures/cars_composite.png" style="width:100%" onclick="onClick(this)" alt="<b>Cars passing the DAS fiber:</b><br> Spatiotemporal DAS recording of passing cars is shown at the top. The fiber section between positions 10430 and 10800 is immediately adjacent to a road. A map of the road section is shown at the bottom left. At the bottom right is a recording of the passage of a single car, with horizontal lines framed in appropriate color corresponding to snapshots of the fiber excitation at the bottom center. <br> 
 Since the fiber passes the road twice in opposite directions, the waterfall diagram is mirrored about the horizontal at a distance of 10645m. The cars are clearly visible as diagonal stripes, and their slope gives immediate information about the speed of the cars (about 18 ± 5km/h). The first car appears at about second 60. Another car travels in the same direction starting at second 125. While the first car crosses a clearly slower road user traveling in the opposite direction towards the end of the road section about 15 seconds later, the second car apparently encounters three other vehicles. One of them leaves its parking place halfway, two others come towards it in close succession.">
       <p>
-<b>Cars passing the DAS fiber:</b><br> Spatiotemporal DAS recording of passing cars is shown at the top. The fiber section between positions 10430 and 10800 is immediately adjacent to a road. A map of the road section is shown at the bottom left. At the bottom right is a recording of the passage of a single car, with horizontal lines framed in appropriate color corresponding to snapshots of the fiber excitation at the bottom center. <br> 
+<b>Cars passing the DAS fiber:</b><br>
+Spatiotemporal DAS recording of passing cars is shown at the top. The fiber section between positions 10430 and 10800 is immediately adjacent to a road. A map of the road section is shown at the bottom left. At the bottom right is a recording of the passage of a single car, with horizontal lines framed in appropriate color corresponding to snapshots of the fiber excitation at the bottom center. <br> 
 Since the fiber passes the road twice in opposite directions, the waterfall diagram is mirrored about the horizontal at a distance of 10645m. The cars are clearly visible as diagonal stripes, and their slope gives immediate information about the speed of the cars (about 18 ± 5km/h). The first car appears at about second 60. Another car travels in the same direction starting at second 125. While the first car crosses a clearly slower road user traveling in the opposite direction towards the end of the road section about 15 seconds later, the second car apparently encounters three other vehicles. One of them leaves its parking place halfway, two others come towards it in close succession. 
 </p>
     </div>
@@ -173,7 +177,8 @@ Since the fiber passes the road twice in opposite directions, the waterfall diag
           <source src="./Movies/anim_car_map.mp4" type="video/mp4">
       </video> 
       <p>
-    Animation of car driving along the fiber: the same section of fiber as shown in the figure on the left. The high amplitudes in the DAS recordings, indicated by yellow color, follows the location of the car. 
+    <b>Animation of car driving along the fiber:</b><br> 
+    The same section of fiber as shown in the figure on the left. The high amplitudes in the DAS recordings, indicated by yellow color, follows the location of the car. 
       </p>
     </div>
   </div>
@@ -239,6 +244,7 @@ Although the length of the waves exceeds that of the tunnel many times over, the
     <div class="w3-half">
       <img src="./Figures/sweeps_signal_spectrogram.png" style="width:100%" onclick="onClick(this)" alt="
       <b>Ground motion excited by the Vibrotruck: </b><br>
+    Time series and frequency content of the vibrotruk sweep measured at position = 900 in the fibre.
     Vibration spectra measured in the accelerator tunnel of EuXFEL very clearly show the ground vibrations that a so-called vibrotruck exerts on the subsurface about 100m away. 
 ">
       <p> <b>Ground motion excited by the Vibrotruck: </b><br>
